@@ -1,0 +1,16 @@
+fetch('juguetes.json')
+  .then(res => res.json())
+  .then(data => {
+    const catalogo = document.getElementById('catalogo');
+    data.forEach(juguete => {
+      const tarjeta = document.createElement('div');
+      tarjeta.className = 'tarjeta';
+      tarjeta.innerHTML = `
+        <img src="${juguete.imagen}" alt="${juguete.nombre}">
+        <h3>${juguete.nombre}</h3>
+        <p>${juguete.descripcion}</p>
+        <strong>${juguete.precio}</strong>
+      `;
+      catalogo.appendChild(tarjeta);
+    });
+  });

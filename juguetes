@@ -1,0 +1,14 @@
+[
+  {
+    "nombre": "Carrito Rojo",
+    "descripcion": "Carrito de juguete para niños mayores de 3 años.",
+    "precio": "$10",
+    "imagen": "https://via.placeholder.com/200x150?text=Carrito"
+  },
+  {
+    "nombre": "Muñeca Clásica",
+    "descripcion": "Muñeca con vestido rosa y sombrero.",
+    "precio": "$15",
+    "imagen": "https://via.placeholder.com/200x150?text=Muñeca"
+  }
+]
